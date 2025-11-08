@@ -1,0 +1,62 @@
+# --- Python build and runtime artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- VS Code and devcontainer metadata ---
+.vscode/
+.devcontainer/.env
+.devcontainer/Dockerfile
+*.code-workspace
+
+# --- Logs, caches, and misc ---
+*.log
+*.pot
+*.mo
+*.pid
+*.seed
+*.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+pytestdebug.log
+
+# --- OS and editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.nfs*
+
+# --- Pip / build output ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Pre-commit & linting ---
+.pre-commit-config.yaml~
+pylint.log
+black.log
+
+# --- Codespaces / VS Code specific ---
+/home/
+/workspaces/
+.history/
